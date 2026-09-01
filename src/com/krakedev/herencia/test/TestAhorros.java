@@ -7,7 +7,7 @@ import com.krakedev.herencia.Padre;
 public class TestAhorros {
 
 	public static void main(String[] args) {
-		Padre padre = new Padre(14000, 13999,0.0,"PADRE");
+		Padre padre = new Padre(1, 13999,0.0,"PADRE");
 		padre.ahorrar(20.000);
 		System.out.println(padre);
 		
@@ -15,13 +15,14 @@ public class TestAhorros {
 		Hija hija = new Hija(2, 4,0.0,"HIJA");
 		hija.ahorrar(20.000);
 		System.out.println("------------------------------------");
-		System.out.println("Ahorros: " + hija.getTotalAhorrado()+" "+ hija.toString());
+		System.out.println(hija.toString());
 		
 		// hijo
 		Hijo hijo = new Hijo(2, 4,9,0.0,"HIJO");
 		hijo.ahorrar(20.000);
 		System.out.println("------------------------------------");
-		System.out.println("Ahorros: " + hijo.getTotalAhorrado()+" "+ hijo);
+		System.out.println(hijo.toString());
+		
 		
 
 	}
