@@ -28,6 +28,16 @@ public class Hijo extends Padre {
 		this.juguetes = juguetes;
 	}
 	
+	//SobreEscribir el metodo Ahorrar
+	
+	@Override
+	public void ahorrar(double monto) {
+		
+		// El hijo solo ahorra el 50% del monto
+	    double ahorroHijo = monto * 0.5;
+	    super.setTotalAhorrado(super.getTotalAhorrado() + ahorroHijo);
+		
+	}
 	
 
 }
