@@ -6,8 +6,8 @@ public class Hijo extends Padre {
 	
 	
 
-	public Hijo(int defectos, int virtudes, int juguetes) {
-		super(defectos, virtudes);
+	public Hijo(int defectos, int virtudes, int juguetes, double TotalAhorrado, String nombre) {
+		super(defectos, virtudes, TotalAhorrado, nombre);
 		this.juguetes=juguetes;
 		
 	}

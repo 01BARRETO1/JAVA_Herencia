@@ -7,17 +7,21 @@ public class Padre {
 
 	// nuevo atributo
 	private double totalAhorrado;
+	// Atributo nombre
+	private String nombre;
 
 	@Override
 	public String toString() {
-		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + ", total Ahorrado=" + totalAhorrado + "]";
+		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + ", totalAhorrado=" + totalAhorrado
+				+ ", nombre=" + nombre + "]";
 	}
-
 	// constructor
 
-	public Padre(int defectos, int virtudes) {
+	public Padre(int defectos, int virtudes, double totalAhorrado, String nombre) {
 		this.defectos = defectos;
 		this.virtudes = virtudes;
+		this.totalAhorrado = totalAhorrado;
+		this.nombre = nombre;
 	}
 
 	// get and set
@@ -45,11 +49,19 @@ public class Padre {
 		this.totalAhorrado = totalAhorrado;
 	}
 
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
 	// Métodos
 	public void imprimir() {
 		System.out.println("Virtudes: " + virtudes);
 		System.out.println("Defectos: " + defectos);
-		
+
 	}
 
 	// Método privado

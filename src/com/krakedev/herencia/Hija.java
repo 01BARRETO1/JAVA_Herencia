@@ -4,8 +4,10 @@ public class Hija extends Padre {
 	
 	
 	
-	public Hija(int defectos, int virtudes) {
-		super(defectos, virtudes);
+	
+
+	public Hija(int defectos, int virtudes, double totalAhorrado, String nombre) {
+		super(defectos, virtudes, totalAhorrado, nombre);
 		
 	}
 

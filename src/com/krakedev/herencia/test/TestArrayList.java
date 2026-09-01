@@ -9,7 +9,7 @@ public class TestArrayList {
 	public static void main(String[] args) {
 		ArrayList<Hija> listaDeHijas = new ArrayList<Hija>();
 
-		Hija hija1 = new Hija(2,4);
+		Hija hija1 = new Hija(2, 4,20.000,"HIJA1");
 
 		hija1.setDefectos(2);
 		hija1.setVirtudes(4);
@@ -18,7 +18,7 @@ public class TestArrayList {
 
 		// Seguanda hoja para agregarla a ala lista
 
-		Hija hija2 = new Hija(6,9);
+		Hija hija2 = new Hija(2, 4,20.000,"HIJA2");
 
 		hija2.setDefectos(6);
 		hija2.setVirtudes(1);
@@ -26,7 +26,7 @@ public class TestArrayList {
 		listaDeHijas.add(hija2);
 
 		// tercera
-		Hija hija3 = new Hija(2,8);
+		Hija hija3 = new Hija(2, 4,20.000,"HIJA3");
 
 		hija3.setDefectos(6);
 		hija3.setVirtudes(1);

@@ -6,7 +6,7 @@ public class TestHija {
 
 	public static void main(String[] args) {
 		
-		Hija hija=new Hija(10,3);
+		Hija hija=new Hija(2, 4,20.000,"HIJA");
 		
 		hija.escucharBadBunny();
 

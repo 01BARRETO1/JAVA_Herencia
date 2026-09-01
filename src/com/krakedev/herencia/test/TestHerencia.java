@@ -6,7 +6,7 @@ public class TestHerencia {
 
 	public static void main(String[] args) {
 		
-		Hija hija=new Hija(2,5);
+		Hija hija=new Hija(2, 4,20.000,"HIJA");
 		
 		hija.setVirtudes(5);
 		hija.setDefectos(2);
