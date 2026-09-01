@@ -9,6 +9,8 @@ public class TestHijo {
 		Hijo hijo = new Hijo(5,7,4);
 		
 		System.out.println(hijo);
+		
+		
 	}
 
 }
