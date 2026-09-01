@@ -49,6 +49,7 @@ public class Padre {
 	public void imprimir() {
 		System.out.println("Virtudes: " + virtudes);
 		System.out.println("Defectos: " + defectos);
+		
 	}
 
 	// Método privado
